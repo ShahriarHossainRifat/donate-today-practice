@@ -5,7 +5,7 @@
 /* header & banner styles */
 .header {
     color: white;
-    background-image: url(../images/donation6.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
+    background-image: url(../images/donation13.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,8 +17,10 @@
     padding-top: 150px;
 }
 .banner-description {
+    font-size: 18px;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 0px 100px;
 }
 .banner-contents {
     text-align: center;
@@ -26,7 +28,7 @@
 }
 /* button styles */
 .btn-primary {
-    background-color: coral;
+    background-color: #FF5959;
     border: 0px;
     height: 40px;
     border-radius: 5px;
@@ -35,4 +37,49 @@
 }
 .header .btn-primary {
     margin-bottom: 150px;
+}
+/* section styles */
+.section-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-description {
+    color: #707070;
+    padding: 0px 600px;
+    margin-bottom: 20px;
+}
+/* donate-today section styles */
+.donate-today .section-title {
+    margin-top: 100px;
+}
+.donate-today {
+    text-align: center;
+}
+.donate-today ul {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    padding: 0px 450px;
+}
+.donate-today li {
+    list-style: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 25px;
+}
+.donate-today .donation-item {
+    background-color: #FAFAFA;
+    height: 100px;
+    width: 120px;
+}
+/* horizontal line styles */
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+/* other styles */
+.other-amount {
+    color: #B3B3B3;
 }
