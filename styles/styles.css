@@ -14,11 +14,11 @@
 .banner-title {
     font-weight: 600;
     font-size: 60px;
-    padding-top: 60px;
+    padding-top: 150px;
 }
 .banner-description {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .banner-contents {
     text-align: center;
@@ -34,5 +34,5 @@
     color: white;
 }
 .header .btn-primary {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
