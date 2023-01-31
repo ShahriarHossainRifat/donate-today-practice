@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    font-family: 'Unbounded', cursive;
+}
+/* header & banner styles */
+.header {
+    color: white;
+    background-image: url(../images/donation6.jpg), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.banner-title {
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 60px;
+}
+.banner-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-contents {
+    text-align: center;
+    margin: 0px 500px;
+}
+/* button styles */
+.btn-primary {
+    background-color: coral;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.header .btn-primary {
+    margin-bottom: 100px;
+}
