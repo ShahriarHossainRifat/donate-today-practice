@@ -74,9 +74,12 @@
 }
 /* horizontal line styles */
 hr {
+    border: 1px solid #DADADA;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
 }
 /* other styles */
 .other-amount {
