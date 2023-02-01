@@ -133,10 +133,28 @@ hr {
     margin-top: 50px;
 }
 .lives-depend .section-description {
-    text-align: left;
     padding: 0px;
 }
 .lives-depend img {
+    border-radius: 5px;
+    height: 477px;
+    width: 650px;
+}
+/* need-us section styles */
+.need-us {
+    display: flex;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 300px;
+    gap: 80px;
+}
+.need-us .section-title {
+    margin-top: 50px;
+}
+.need-us .section-description {
+    padding: 0px;
+}
+.need-us img {
     border-radius: 5px;
     height: 477px;
     width: 650px;
