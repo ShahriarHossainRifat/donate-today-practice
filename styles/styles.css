@@ -28,7 +28,7 @@
 }
 /* button styles */
 .btn-primary {
-    background-color: #FF5959;
+    background: #FF5959;
     border: 0px;
     height: 40px;
     border-radius: 5px;
@@ -37,6 +37,21 @@
 }
 .header .btn-primary {
     margin-bottom: 150px;
+}
+/* horizontal line styles */
+hr {
+    border: 1px solid #DADADA;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+/* other styles */
+.other-amount {
+    color: #B3B3B3;
+    font-weight: 200;
+    font-size: 18px;
 }
 /* section styles */
 .section-title {
@@ -106,18 +121,23 @@
     color: #707070;
     font-size: 15px;
 }
-/* horizontal line styles */
-hr {
-    border: 1px solid #DADADA;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px;
+/* lives-depend section styles */
+.lives-depend {
+    display: flex;
+    margin-top: 150px;
+    padding-left: 200px;
+    padding-right: 300px;
+    gap: 80px;
 }
-/* other styles */
-.other-amount {
-    color: #B3B3B3;
-    font-weight: 200;
-    font-size: 18px;
+.lives-depend .section-title {
+    margin-top: 50px;
+}
+.lives-depend .section-description {
+    text-align: left;
+    padding: 0px;
+}
+.lives-depend img {
+    border-radius: 5px;
+    height: 477px;
+    width: 650px;
 }
