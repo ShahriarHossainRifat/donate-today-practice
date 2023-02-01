@@ -187,3 +187,16 @@ hr {
     background-color: #FF5959;
     color: white;
 }
+/* footer styles */
+footer {
+    background-color: black;
+    padding: 30px 0px;
+}
+footer .section-title {
+    color: #FF5959;
+    text-align: center;
+}
+footer .section-description {
+    padding: 0px;
+    text-align: center;
+}
