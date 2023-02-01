@@ -72,6 +72,40 @@
     padding: 40px 25px;
     border-radius: 5px;
 }
+/* our donate plan section styles */
+.our-donate-plan .section-title {
+    text-align: center;
+    margin-top: 80px;
+}
+.donation-categories {
+    display: flex;
+    padding:0px 200px;
+    gap: 25px;
+}
+.donation-categories .single-category1 {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 60px 30px;
+}
+.donation-categories .single-category2 {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 60px 30px;
+}
+.donation-categories .single-category3 {
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 60px 30px;
+}
+.donation-category-title {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donation-category-description {
+    color: #707070;
+    font-size: 15px;
+}
 /* horizontal line styles */
 hr {
     border: 1px solid #DADADA;
